@@ -1,0 +1,7 @@
+# example of file to be ignored.
+# but you have to revome it from the Sating Area before using the command
+# git rm --cached -r .
+secrets.txt
+
+# you can use wild cards
+# *.txt

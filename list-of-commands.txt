@@ -1,0 +1,36 @@
+Comandos usados na Seção 27: Git, Github and Version Control
+
+Unix commands:
+==============
+ctrl + u : limpa o comando digitado
+ls : lista o conteúdo da pasta
+ls -a : lista as pastas ocultas
+cd : entra em um diretório
+cd ~ : vai para a raiz do usuário
+mkdir : cria uma pasta
+pwd : mostra o caminho da pasta atual completa
+touch : cria um arquivo
+open -a /Applications/Visual\ Studio\ Code.app readme.txt : exemplo para abrir arquivo no VS Code
+
+Git Comands:
+============
+git init : inicializa o git
+git status : show the files on the Stagin Area, and the status of it. Red is not trackied on Staging Area, green it is and is ready to be commited.
+git add filename : add file to the Staging Area so it's going to start tracking the file changes.
+> git add . : add all files that is not on Stagin Area.
+> git commit -m "commit message" : commit the file to the git with a message.
+git log : see the commits we have made.
+git diff filename : show the differences between the local file and the last saved version on the git repository.
+git checkout filename : revert the file to the versoin saved on the git repository. (delete the loca version)
+
+Github and Remote Repositories
+==============================
+
+git remote add origin https://github.com/methodoti/Story.git :  create the remote
+                                                                origin is the name of yout remote (by convention, it's better to use this name)                                                                
+> git push -u origin main : push local repository to our remote repository called origin to the main branch
+
+Gitignore
+=========
+touch .gitignore : create the Gitignore
+git rm --cached -r . : remove all files from the Staging Area
