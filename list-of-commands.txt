@@ -22,3 +22,10 @@ git commit -m "commit message" : commit the file to the git with a message.
 git log : see the commits we have made.
 git diff filename : show the differences between the local file and the last saved version on the git repository.
 git checkout filename : revert the file to the versoin saved on the git repository. (delete the loca version)
+
+Github and Remote Repositories
+==============================
+
+git remote add origin https://github.com/methodoti/Story.git :  create the remote
+                                                                origin is the name of yout remote (by convention, it's better to use this name)                                                                
+git push -u origin main : push local repository to our remote repository called origin to the main branch
