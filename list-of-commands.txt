@@ -43,5 +43,5 @@ Branching and Merging
 =====================
 git branch : see the branch active
 git branch name-of-branch : create a new time line
-git merge name-of-branch : merge the time line to the main project.
+git merge name-of-branch : merge the time line to the main project. (:q! to save on editor)
 git checkout name-of-branch : switch from main to the branch
