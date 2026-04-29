@@ -38,3 +38,10 @@ git rm --cached -r . : remove all files from the Staging Area
 Cloning
 =======
 git clone url : copy a public repository to your local enviroment.
+
+Branching and Merging
+=====================
+git branch : see the branch active
+git branch name-of-branch : create a new time line
+git merge name-of-branch : merge the time line to the main project.
+git checkout name-of-branch : switch from main to the branch
