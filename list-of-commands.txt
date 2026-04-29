@@ -34,3 +34,7 @@ Gitignore
 =========
 touch .gitignore : create the Gitignore
 git rm --cached -r . : remove all files from the Staging Area
+
+Cloning
+=======
+git clone url : copy a public repository to your local enviroment.
