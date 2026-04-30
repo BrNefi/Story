@@ -45,3 +45,14 @@ git branch : see the branch active
 git branch name-of-branch : create a new time line
 git merge name-of-branch : merge the time line to the main project. (:q! to save on editor)
 git checkout name-of-branch : switch from main to the branch
+
+Update local repository
+=======================
+git pull origin main : download the updates from GitHub and merge it to my local repository
+or
+//
+git fetch origin : download informations (don't change the local files)
+git diff main origin/main : See the differences (optional)
+and
+git merge origin/main : merge the local repository
+//
