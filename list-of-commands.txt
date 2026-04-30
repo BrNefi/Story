@@ -56,3 +56,5 @@ git diff main origin/main : See the differences (optional)
 and
 git merge origin/main : merge the local repository
 //
+
+teste de commit privado
